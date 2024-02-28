@@ -10,6 +10,12 @@ changes:
 - used Polly library for timeouts
 - added unit tests
 
-Things to consider: 
+Answers to questions: 
 
-I think we should keep somewhere info about installation file  that a user is trying to download - md5 data, file size, possible version . Then we could verify if downloaded was valid or not
+How did you approach solving the problem? I read readme file, tried to understand the problem. I read requirements. Then I started looking into the code and tried to implement a fast solution that would work. Then I started thinking how i would write the code in a way that I could potentially extend it, test it easier
+
+How did you verify your solution works correctly? By running tests and testing in console app
+
+How long did you spend on the exercise? maybe around 5 hours in total 
+
+What would you add if you had more time and how? I would test timeouts more and in general would do more testing. Also added more unit tests. I would consider moving rewriting part where I'm getting reference file data.
